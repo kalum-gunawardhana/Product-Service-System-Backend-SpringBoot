@@ -13,6 +13,6 @@ public class ProductDto {
     private String title;
     private double price;
     private String description;
-    private ProductCategory category;
+//    private ProductCategory category;
     private String image;
 }

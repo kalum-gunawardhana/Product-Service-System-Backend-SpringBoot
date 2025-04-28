@@ -25,9 +25,9 @@ public class ProductEntity {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    @Column(nullable = false)
-    @Enumerated(EnumType.STRING)
-    private ProductCategory category;
+//    @Column(nullable = false)
+//    @Enumerated(EnumType.STRING)
+//    private ProductCategory category;
 
     @Column(nullable = false)
     private String image;
